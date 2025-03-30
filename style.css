@@ -56,6 +56,17 @@ p {
 #addTaskButton:hover {
     background-color: #4CAF50;
 }
+#clearAllButton {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #bebebe;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    grid-column: 2; 
+    grid-row: 4; 
+    margin: 10px auto; 
+}
 .taskListContainer {
     font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
