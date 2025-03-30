@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(36, 36, 36);
+    display: grid;
+    grid-template-columns: auto, 100px,auto;
+    grid-template-rows: auto, auto, auto, auto;
+    
+}
+#listHeader {
+    font-family: 'Courier New', Courier, monospace;
+    size: 20px;
+    color: whitesmoke;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    grid-row: 1;
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    grid-row: 3;
+    text-align: center;
+    margin-top: 20px;
+}
+.taskInput {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    border-bottom: 1px solid white;
+    width: 10%;
+    padding: 10px;
+    margin-left: 820px
+    
+}
+.taskInput:focus {
+    outline: none;
+    border-bottom: 1px solid #4CAF50;
+}
+
+#addTaskButton {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #bebebe;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    grid-column: 2; 
+    grid-row: 3; 
+    margin: 10px auto; 
+}
+#addTaskButton:hover {
+    background-color: #4CAF50;
+}
+.taskListContainer {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.taskListContainer:hover {
+    background-color: #4caf4f11;
+}
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    grid-row: 4;
+    background-color: rgb(36, 36, 36);
+}
